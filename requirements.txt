@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]        # ASGI server
+python-multipart         # Required for file uploads in FastAPI
+pypdf                    # PDF text extraction (pure Python, no system deps)
+anthropic                # Official Claude SDK
+pydantic                 # Data validation (comes with FastAPI)
