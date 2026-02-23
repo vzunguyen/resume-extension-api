@@ -21,7 +21,6 @@ resume-filler-api/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-├── .venv     # Virtual environment
 └── .env.example
 ```
 
@@ -29,19 +28,7 @@ resume-filler-api/
 
 ## For Devs
 
-To activate Virtual Environment:
-
-```
-source .venv/bin/activate
-```
-
-To deactivate:
-
-````
-deactivate
-````
-
-### Wanted Response Format
+````### Wanted Response Format
 
 ```
 {
